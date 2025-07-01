@@ -1,1 +1,1 @@
-# Präsentation zum PTA für Gastsitzung in der Übung „Kirchengeschichte im Digitalen – Digitales in der Kirchengeschichte“ (Uni Mainz, Benedict Totsche) 
+# Slides for BergSAS course: “Digital Methods and Instruments of the ZGAW” (SS 2025)
