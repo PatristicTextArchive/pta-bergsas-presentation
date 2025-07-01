@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: >-
+  The Alexandrian and Antiochene Bible Exegesis in Late Antiquity
+message: >-
+  If you use this presentation, please cite it using the
+  metadata from this file.
+type: dataset
+authors:
+  - given-names: Annette
+    name-particle: von
+    family-names: Stockhausen
+    email: annette.von_stockhausen@bbaw.de
+    affiliation: Berlin-Brandenburgische Akademie der Wissenschaften
+    orcid: 'https://orcid.org/0000-0001-5382-6322'
+abstract: >-
+  Presentation on the use of Handwritten Text Recognition (HTR) 
+  in the editing process and the digital edition platform of the 
+  Patristic Text Archive (PTA) (https://pta.bbaw.de). Subsequently, 
+  with the help of Jupyter Notebooks (Python), we will explore 
+  possibilities for research beyond the tools available on the website.
+  For BergSAS course: “Digital Methods and Instruments of the ZGAW”
+  (SS 2025) 
+license: CC-BY-SA-4.0

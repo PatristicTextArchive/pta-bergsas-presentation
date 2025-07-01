@@ -1,0 +1,284 @@
+---
+title: "The Alexandrian and Antiochene Bible Exegesis in Late Antiquity" 
+author: 
+    - name: Annette von Stockhausen
+      orcid: 0000-0001-5382-6322
+      email: annette.von_stockhausen@bbaw.de
+      affiliations: Berlin-Brandenburgische Akademie der Wissenschaften
+date: 1. Juli 2025
+date-format: "D MMMM YYYY"
+format: 
+  revealjs:
+    include-after-body:
+      - file: revealjs_tabset.html
+    output-file: index
+    theme: [default, bbaw.scss]
+    slide-number: true 
+    show-slide-number: all
+    navigation-mode: vertical
+    controls: auto
+    controls-layout: bottom-right
+    pause: true
+    touch: true
+    preview-links: true
+    embed-resources: true
+    footer: |
+        Annette von Stockhausen: The Alexandrian and Antiochene Bible Exegesis in Late Antiquity
+    logo: images/1_BBAW_Logo_2025_schw-rot_CMYK.svg
+    title-slide-attributes:
+        data-background-image: images/by-sa.png, images/pta-logo.svg, images/qrcode.png
+        data-background-size: 8% auto, 15% auto, 10% auto
+        data-background-position: bottom 5% right 1%, top 1% left 1%, bottom 15% right 1%
+revealjs-plugins:
+  - pointer
+  - attribution
+---
+
+# The Alexandrian and Antiochene Bible Exegesis in Late Antiquity
+
+## History: Die griechischen christlichen Schriftsteller (GCS)
+
+:::: columns
+
+::: {.column width="35%"}
+![](../DH-Koll/images/hippolytuswerke01hipp_0011.jpg)
+:::
+
+::: {.column width="35%"}
+![](../DH-Koll/images/hippolytuswerke01hipp_0009.jpg)
+:::
+
+::::
+
+::: {.attribution}
+Source: [https://archive.org/details/hippolytuswerke01hipp](https://archive.org/details/hippolytuswerke01hipp)
+:::
+
+## Today
+
+[![](../DH-Koll/images/Bibelexegese.png)](https://bibelexegese.bbaw.de)
+
+
+## Publishing in the 21st century
+
+:::: {.panel-tabset}
+
+### Data publication
+
+Reuse – Analysis of data with your own tools
+
+[![](images/Zenodo.png){width="600"}](https://zenodo.org/records/14444959)
+
+(Several data sets: editions, metadata, TEI schema, manuscript descriptions)
+
+### Print publication
+
+Reading – Reduced data presentation – Safe long-term archiving
+
+![](../DH-Koll/images/gcs.jpg){width="300"}
+
+### Web publication
+
+Reading & Searching – Analysis of data with preselected tools 
+
+[![](images/PTA.png){width="700"}](https://pta.bbaw.de)
+
+:::
+
+## Project Plan
+
+![](../../Antrag_Evaluationen/2022_Evaluation/Modules.png)
+
+# Training and Use of Handwritten Text Recognition (HTR)
+
+## Why?
+
+![](images/Severian-Manuscripts.png)
+
+- amount of manuscripts (and text to be transcribed)
+- manuscript transcription error prone
+
+## eScriptorium
+
+:::: {.panel-tabset}
+
+### eScriptorium frontend
+![](images/Escriptorium.png)
+
+
+### Kraken training
+![](images/Kraken_Training.png)
+::::
+
+# The PTA as platform for digital critical editions (and beyond)
+
+## The [PTA](https://pta.bbaw.de) in a nutshell
+
+1.  **Publication platform (and tool) for Akademienvorhaben [„Die alexandrinische und antiochenische Bibelexegese in der Spätantike“](https://bibelexegese.bbaw.de)**
+2.  Also archive for **editions** (in **all languages**, Christian texts from antiquity have been transmitted) and **translations** – also **retro digitalised editions**
+3.  Focus: **critical editions** (with extensive documentation of the manuscript tradition to be able to *evaluate* editorial decissions)
+4.  Data is **open access** (CC-BY, CC-BY-SA – some exceptions)
+5.  Easy **reuse of data** (data publication <https://github.com/PatristicTextArchive/> + Zenodo; API \[cts, git\])
+6.  **Web publication** (with several access routes and some tools)
+7.  Using **Standards**: [TEI (P5)](https://tei-c.org/release/doc/tei-p5-doc/en/html/index.html) (*adapted Schema*), [CapiTainS Guidelines](http://capitains.org/) (CTS; structure of files/folders), normdata (annotations).
+
+
+## PTA: Data
+
+Texts
+
+:   {{< fa brands github >}} <https://github.com/PatristicTextArchive/pta_data> [{{< ai zenodo >}}](https://doi.org/10.5281/zenodo.4066796)
+
+Manuscript descriptions
+
+:   {{< fa brands github >}} <https://github.com/PatristicTextArchive/pta_manuscripts> [{{< ai zenodo >}}](https://doi.org/10.5281/zenodo.7595081)
+
+Metadata
+
+:   {{< fa brands github >}} <https://github.com/PatristicTextArchive/pta_metadata> [{{< ai zenodo >}}](https://doi.org/10.5281/zenodo.6822080)
+
+Edition guidelines
+
+:   {{< fa brands github >}} <https://github.com/PatristicTextArchive/Schema> [{{< ai zenodo >}}](https://doi.org/10.5281/zenodo.3737666)
+
+
+## PTA Workflows
+
+![](images/Workflows_PTA_2025.png)
+
+
+## PTA: Web-Interface
+
+
+::: {.r-fit-text}
+<https://pta.bbaw.de>
+:::
+
+![](../PTA-Visitenkarte/PTA-QRCode.svg){width="300"}
+
+
+## Multiple approaches available
+
+-   authors and works (texts)
+-   manuscript descriptions
+-   indices (biblical and other references, persons, places)
+-   search (fulltext, distance; metadata)
+
+## Authors and Works
+
+![](images/Texts-Authors.png)
+
+## Manuscripts
+
+![](images/Manuscripts.png)
+
+## Indices
+
+:::: columns
+
+::: {.column width="33%"}
+![Bible index](images/Bibleindex.png)
+:::
+
+::: {.column width="33%"}
+![Persons index](images/Personsindex.png)
+:::
+
+:::{.column width="33%"}
+
+![Places index](images/Placesindex.png)
+:::
+
+::::
+
+## Search (preview)
+
+:::: {.panel-tabset}
+### Simple search
+
+![](images/Simple_search.png)
+
+### Advanced search
+
+![](images/Advanced_search.png)
+::::
+
+## “Reader” interface 
+
+![(2\[4\]-column; versioning)](images/Edition2Column.png)
+
+## Visualisation of metadata
+
+![Visualisation of metadata (sources, identifiers) and recommendations for reuse (citation, permalink, versions, license)](images/EditionDocumentWidget.png)
+
+## Visualisation of variants
+
+![Variant “apparatus”](images/EditionVariant.png)
+
+## Visualisation of annotations
+
+![Enrichment of annotations (*here*: biblical references, *also*: persons, places; using authority files)](images/EditionBible.png)
+
+## Dictionary
+
+![(Preview: with analyzed data)](images/Dictionary.png)
+
+## Manuscript transcriptions
+
+![Embedding of digitized images of manuscripts (via IIIF standard)](images/TranscriptionIIIF.png)
+
+## Manuscript database
+
+:::: columns
+
+::: {.column width="50%"}
+![Manuscripts overview](images/Manuscripts.png)
+:::
+
+::: {.column width="50%"}
+![Manuscript database entry](images/ManuscriptEntry.png)
+:::
+
+
+::::
+
+
+## Encoding guidelines
+
+![](images/EncodingGuidelines.png)
+
+
+# Digital Analysis using the data 
+
+## Simple: Using your text editor
+
+![Search for quotes from Colossians in Severian using VSCode with opened [{{< fa brands github >}} pta_data](https://github.com/PatristicTextArchive/pta_data)-Folder](images/Screenshot-VSCode-Search.png)
+
+
+## Stage 2: Using Python
+
+### Introductions
+- [Real Python Tutorials](https://realpython.com/)
+- [William Mattingly, Introduction to Python for Digital Humanities](http://python-textbook.pythonhumanities.com/intro.html)
+- [Folgert Karsdorp, Mike Kestemont und Allen Riddell, Humanities Data Analysis: Case Studies with Python](https://www.humanitiesdataanalysis.org)
+- [Programming Historian](https://programminghistorian.org/)
+- [The AI for Humanists Project](https://aiforhumanists.com/)
+
+
+### Jupyter-Notebooks
+- [{{< fa brands github >}} PatristicTextArchive / analyse_data](https://github.com/PatristicTextArchive/analyse_data)
+
+# Thank you!
+
+## Contact
+
+Dr. Annette von Stockhausen
+
+-   {{< fa envelope >}} [annette.von_stockhausen\@bbaw.de](mailto:annette.von_stockhausen@bbaw.de){.email}
+-   {{< fa brands mastodon >}} [https://fedihum.org/\@avstockhausen](https://fedihum.org/@avstockhausen){.uri}
+
+BBAW, Akademienvorhaben „Die alexandrinische und antiochenische Bibelexegese in der Spätantike“
+
+-   {{< fa house >}} <https://bibelexegese.bbaw.de>
+-   {{< fa brands mastodon >}} [https://hcommons.social/\@bibelexegese](https://hcommons.social/@bibelexegese){.uri}
+-   {{< fa brands bluesky >}} <https://bsky.app/profile/bibelexegese.bsky.social>

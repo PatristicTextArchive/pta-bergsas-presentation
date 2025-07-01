@@ -1,0 +1,39 @@
+<script type="text/javascript">
+  Reveal.on("ready", function () {
+    const tabsetSlides = document.querySelectorAll(".reveal .slides section .panel-tabset");
+    tabsetSlides.forEach(function (tabset) {
+      const tabCount = tabset.querySelectorAll("ul li").length;
+      for (let i = 0; i < tabCount - 1; i++) {
+        const fragmentDiv = document.createElement("div");
+        fragmentDiv.className = "panel-tabset-fragment fragment";
+        fragmentDiv.dataset.tabIndex = i + 1;
+        fragmentDiv.style.display = "none";
+        tabset.parentNode.appendChild(fragmentDiv);
+      }
+    });
+  });
+
+  Reveal.on("fragmentshown", (event) => {
+    if (event.fragment.classList.contains("panel-tabset-fragment")) {
+      const tabIndex = parseInt(event.fragment.dataset.tabIndex);
+      const tabset = Reveal.getCurrentSlide().querySelector(".panel-tabset");
+      const tabLinks = tabset.querySelectorAll("ul li a");
+      if (tabIndex < tabLinks.length) {
+        tabLinks[tabIndex].click();
+      }
+    }
+  });
+
+  Reveal.on("fragmenthidden", (event) => {
+    if (event.fragment.classList.contains("panel-tabset-fragment")) {
+      const tabIndex = parseInt(event.fragment.dataset.tabIndex);
+      const tabset = Reveal.getCurrentSlide().querySelector(".panel-tabset");
+      const tabLinks = tabset.querySelectorAll("ul li a");
+      if (tabIndex > 0) {
+        tabLinks[tabIndex - 1].click();
+      } else {
+        tabLinks[0].click();
+      }
+    }
+  });
+</script>
